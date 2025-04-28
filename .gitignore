@@ -1,0 +1,61 @@
+# macOS 시스템 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode 에디터 설정 폴더
+.vscode/
+
+# Node.js (웹 개발 시)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 빌드 결과물
+build/
+dist/
+
+# Xcode (iOS 개발 시)
+*.xcworkspace
+*.xcodeproj
+*.xcuserstate
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Swift Package Manager
+/.build/
+Packages/
+
+# Cocoapods
+Pods/
+
+# Carthage
+Carthage/
+
+# 환경 변수 파일 (민감 정보)
+.env
+
+# JetBrains IDEs (ex: WebStorm, AppCode)
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+
+# Test output
+test-output/
+
+# Coverage directory used by coverage testing tools
+coverage/
+
+# 로그 파일
+*.log
